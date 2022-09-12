@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "divine_tools:divinity_ingot"
+    }
+  },
+  "pattern": [
+    "  ",
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "item": "divine_tools:divinity_boots"
+  }
+}
