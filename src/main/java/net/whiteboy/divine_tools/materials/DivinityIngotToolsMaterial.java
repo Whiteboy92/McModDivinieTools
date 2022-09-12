@@ -1,9 +1,7 @@
 package net.whiteboy.divine_tools.materials;
 
-import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.whiteboy.divine_tools.item.DivinityIngotItem;
 import net.whiteboy.divine_tools.item.RegisterArmorItems;
 
 public class DivinityIngotToolsMaterial implements ToolMaterial {
@@ -12,12 +10,12 @@ public class DivinityIngotToolsMaterial implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        return 3333;
+        return 5000;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 10.0f;
+        return 2.0f;
     }
 
     @Override
