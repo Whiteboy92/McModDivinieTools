@@ -15,15 +15,15 @@ import net.whiteboy.divine_tools.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block DIVINITY_BLOCK = registerBlock("divinity_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),
+            new Block(FabricBlockSettings.of(Material.STONE).strength(350f).requiresTool()),
             ModItemGroup.DIVINE_TOOLS);
 
     public static final Block DIVINITY_ORE_BLOCK = registerBlock("divinity_ore_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),
+            new Block(FabricBlockSettings.of(Material.STONE).strength(350f).requiresTool()),
             ModItemGroup.DIVINE_TOOLS);
 
     public static final Block DEEPSLATE_DIVINITY_ORE_BLOCK = registerBlock("deepslate_divinity_ore_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),
+            new Block(FabricBlockSettings.of(Material.STONE).strength(350f).requiresTool()),
             ModItemGroup.DIVINE_TOOLS);
 
 

@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "divine_tools:divinity_ore_block",
+    "divine_tools:divinity_block",
     "divine_tools:deepslate_divinity_ore_block"
   ]
 }
