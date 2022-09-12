@@ -16,15 +16,15 @@ public class ModBlocks {
 
     public static final Block DIVINITY_BLOCK = registerBlock("divinity_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1f).requiresTool()),
-            ModItemGroup.MYTHICTOOLSARMOR);
+            ModItemGroup.DIVINE_TOOLS);
 
     public static final Block DIVINITY_ORE_BLOCK = registerBlock("divinity_ore_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1f).requiresTool()),
-            ModItemGroup.MYTHICTOOLSARMOR);
+            ModItemGroup.DIVINE_TOOLS);
 
     public static final Block DEEPSLATE_DIVINITY_ORE_BLOCK = registerBlock("deepslate_divinity_ore_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1f).requiresTool()),
-            ModItemGroup.MYTHICTOOLSARMOR);
+            ModItemGroup.DIVINE_TOOLS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {

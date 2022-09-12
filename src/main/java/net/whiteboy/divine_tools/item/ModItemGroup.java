@@ -9,7 +9,7 @@ import net.whiteboy.divine_tools.block.ModBlocks;
 
 public class ModItemGroup {
 
-    public static final ItemGroup MYTHICTOOLSARMOR = FabricItemGroupBuilder.build(
+    public static final ItemGroup DIVINE_TOOLS = FabricItemGroupBuilder.build(
             new Identifier(DivineToolsMod.MOD_ID, "divine_tools"),
             () -> new ItemStack(ModBlocks.DIVINITY_BLOCK));
 }
