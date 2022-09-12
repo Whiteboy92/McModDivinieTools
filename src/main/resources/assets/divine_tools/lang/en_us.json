@@ -1,0 +1,24 @@
+{
+  "item.divine_tools.divinity_ingot" : "Divinity Ingot",
+  "item.divine_tools.raw_divinity_ore": "Raw Divinity Ore",
+  "item.divine_tools.divinity_ore_block" : "Divinity Ore Block",
+  "item.divine_tools.divinity_block" : "Divinity Block",
+  "item.divine_tools.divinity_chestplate" : "Divinity Chestplate",
+  "item.divine_tools.divinity_leggings" : "Divinity Leggings",
+  "item.divine_tools.divinity_helmet" : "Divinity Helmet",
+  "item.divine_tools.divinity_boots" : "Divinity Boots",
+  "item.divine_tools.divinity_pickaxe" : "Divinity Pickaxe",
+  "item.divine_tools.divinity_axe" : "Divinity Axe",
+  "item.divine_tools.divinity_sword" : "Divinity Sword",
+  "item.divine_tools.divinity_shovel" : "Divinity Shovel",
+  "item.divine_tools.divinity_hoe" : "Divinity Hoe",
+
+
+  "itemGroup.divine_tools.mythictoolsarmor" : "Mythic Tools",
+
+
+  "block.divine_tools.divinity_ore_block" : "Divinity Ore Block",
+  "block.divine_tools.deepslate_divinity_ore_block" : "Deepslate Divinity Ore Block",
+  "block.divine_tools.divinity_block" : "Divinity Block"
+
+}

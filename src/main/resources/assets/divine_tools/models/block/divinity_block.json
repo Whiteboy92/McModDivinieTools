@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures":{
+    "all": "divine_tools:block/divinity_block"
+  }
+}
