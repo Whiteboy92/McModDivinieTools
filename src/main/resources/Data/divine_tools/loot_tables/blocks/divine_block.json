@@ -1,5 +1,5 @@
 {
-  "type": "divine_tools:block",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -11,10 +11,10 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "divine_tools:divinity_block"
+          "name": "divine_tools:divine_block"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ]
 }

@@ -17,7 +17,7 @@ public class DivinityIngotToolsMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 12.0f;
+        return 10.0f;
     }
 
     @Override

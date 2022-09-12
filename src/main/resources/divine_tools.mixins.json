@@ -4,6 +4,8 @@
   "package": "net.whiteboy.divine_tools.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ArmorItemMixin",
+    "EntityMixin"
   ],
   "client": [
     "DivineToolsMixin"

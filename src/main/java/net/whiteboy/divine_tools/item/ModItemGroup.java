@@ -11,5 +11,5 @@ public class ModItemGroup {
 
     public static final ItemGroup DIVINE_TOOLS = FabricItemGroupBuilder.build(
             new Identifier(DivineToolsMod.MOD_ID, "divine_tools"),
-            () -> new ItemStack(ModBlocks.DIVINITY_BLOCK));
+            () -> new ItemStack(ModBlocks.DIVINE_BLOCK));
 }
