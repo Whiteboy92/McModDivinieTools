@@ -12,16 +12,8 @@ import net.minecraft.util.registry.Registry;
 
 public class CustomShovelItem extends ShovelItem {
 
-    private final TagKey<Block> effectiveBlocks = TagKey.of(Registry.BLOCK_KEY, new Identifier("divine_tools", "divine_tools_ores"));
-
     public CustomShovelItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
-    }
-
-
-    @Override
-    public float getMiningSpeedMultiplier(ItemStack stack, BlockState state) {
-        return state.isIn(this.effectiveBlocks) ? this.miningSpeed : 10.0F;
     }
 }
 

@@ -4,9 +4,9 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.whiteboy.divine_tools.item.RegisterArmorItems;
 
-public class DivinityIngotToolsMaterial implements ToolMaterial {
+public class DivinityIngotPickaxeMaterial implements ToolMaterial {
 
-    public static final DivinityIngotToolsMaterial INSTANCE = new DivinityIngotToolsMaterial();
+    public static final DivinityIngotPickaxeMaterial INSTANCE = new DivinityIngotPickaxeMaterial();
 
     @Override
     public int getDurability() {
@@ -15,12 +15,12 @@ public class DivinityIngotToolsMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 5.0f;
+        return 20.0f;
     }
 
     @Override
     public float getAttackDamage() {
-        return 10;
+        return 0;
     }
 
     @Override
