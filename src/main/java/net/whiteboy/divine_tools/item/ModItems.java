@@ -19,13 +19,13 @@ public class ModItems {
             4, -3.0F, new FabricItemSettings().group(ModItemGroup.DIVINE_TOOLS)));
 
     public static ToolItem DIVINITY_SWORD = registerItem("divinity_sword", new SwordItem(DivinityIngotToolsMaterial.INSTANCE,
-            10, -2.0F, new FabricItemSettings().group(ModItemGroup.DIVINE_TOOLS)));
+            11, -2.0F, new FabricItemSettings().group(ModItemGroup.DIVINE_TOOLS)));
 
     public static ToolItem DIVINITY_PICKAXE = registerItem("divinity_pickaxe", new CustomPickaxeItem(DivinityIngotPickaxeMaterial.INSTANCE,
             4, -2.4F, new FabricItemSettings().group(ModItemGroup.DIVINE_TOOLS)));
 
     public static ToolItem DIVINITY_AXE = registerItem("divinity_axe", new CustomAxeItem(DivinityIngotAxeMaterial.INSTANCE,
-            12, -2.4F, new FabricItemSettings().group(ModItemGroup.DIVINE_TOOLS)));
+            14, -2.4F, new FabricItemSettings().group(ModItemGroup.DIVINE_TOOLS)));
 
     public static ToolItem DIVINITY_HOE = registerItem("divinity_hoe", new CustomHoeItem(DivinityIngotToolsMaterial.INSTANCE,
             4, -3.2F, new FabricItemSettings().group(ModItemGroup.DIVINE_TOOLS)));
